@@ -1,0 +1,22 @@
+/* =========================== */
+/* CSS PALETTE COLOR */
+/* =========================== */
+
+:root {
+  --blue: 83, 127, 231;
+  --green: 80, 216, 144;
+  --orange: 242, 126, 29;
+  --text-color: 0, 0, 0;
+  --bg-color: 255, 255, 255;
+  --bg-color-secondary: 230, 230, 230;
+  --bg-reverse: 60, 60, 60;
+}
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --bg-color: 50, 50, 50;
+    --bg-color-secondary: 70, 70, 70;
+    --text-color: 255, 255, 255;
+    --bg-reverse: 255, 255, 255;
+  }
+}
